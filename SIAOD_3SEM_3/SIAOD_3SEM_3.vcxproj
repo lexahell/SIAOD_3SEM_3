@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="Record.cpp" />
     <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="HashTable.h" />
+    <ClInclude Include="Record.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
